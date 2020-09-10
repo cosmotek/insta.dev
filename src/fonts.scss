@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 200;
+    src: url("assets/Gilroy-Light.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 400;
+    src: url("assets/Gilroy-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 600;
+    src: url("assets/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 700;
+    src: url("assets/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 900;
+    src: url("assets/Gilroy-Heavy.ttf");
+}
+
+h1, h2, h3, p, a, li, ul, button, input {
+    font-family: 'Gilroy', sans-serif;
+    color: $th-txt-dark;
+}
